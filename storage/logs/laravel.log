@@ -1,0 +1,453 @@
+[2024-07-26 04:19:07] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:36)
+[stacktrace]
+#0 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
+#1 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1419): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(150): Illuminate\\Container\\Container->offsetGet('blade.compiler')
+#8 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#9 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#10 C:\\Users\\USER\\convert\\vendor\\facade\\ignition\\src\\IgnitionServiceProvider.php(467): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#11 C:\\Users\\USER\\convert\\vendor\\facade\\ignition\\src\\IgnitionServiceProvider.php(158): Facade\\Ignition\\IgnitionServiceProvider->hasCustomViewEnginesRegistered()
+#12 C:\\Users\\USER\\convert\\vendor\\facade\\ignition\\src\\IgnitionServiceProvider.php(101): Facade\\Ignition\\IgnitionServiceProvider->registerViewEngines()
+#13 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Facade\\Ignition\\IgnitionServiceProvider->boot()
+#14 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(924): Illuminate\\Container\\Container->call(Array)
+#19 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(905): Illuminate\\Foundation\\Application->bootProvider(Object(Facade\\Ignition\\IgnitionServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Facade\\Ignition\\IgnitionServiceProvider), 15)
+#21 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#22 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#26 C:\\Users\\USER\\convert\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\USER\\convert\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\USER\\convert\\server.php(21): require_once('C:\\\\Users\\\\USER\\\\c...')
+#29 {main}
+"} 
+[2024-07-26 04:28:25] local.ERROR: File conversion error: Unable to load FFMpeg  
+[2024-07-26 04:33:01] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/RoYU1DCmo4V1Xmjp21f0ThJzk209iDUNnkAxWtwv.mp4 to C:\Users\USER\convert\storage\app/uploads/RoYU1DCmo4V1Xmjp21f0ThJzk209iDUNnkAxWtwv.wav  
+[2024-07-26 04:33:01] local.ERROR: File conversion error: Unable to load FFMpeg  
+[2024-07-26 04:38:10] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/WbyPx7phkAoBHU9xcwCtJSv1tZzXBilXXjmVuozh.mp4 to C:\Users\USER\convert\storage\app/uploads/WbyPx7phkAoBHU9xcwCtJSv1tZzXBilXXjmVuozh.wav  
+[2024-07-26 04:38:10] local.ERROR: File conversion error: Unable to load FFMpeg  
+[2024-07-26 04:45:46] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/pSYfeRy2fewlFTOI96xAz9ASkUUVRWOyEefSNZpy.mp4 to C:\Users\USER\convert\storage\app/uploads/pSYfeRy2fewlFTOI96xAz9ASkUUVRWOyEefSNZpy.wav  
+[2024-07-26 04:45:46] local.ERROR: File conversion error: Unable to load FFMpeg  
+[2024-07-26 05:01:18] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4 to C:\Users\USER\convert\storage\app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.wav  
+[2024-07-26 05:01:18] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4  
+[2024-07-26 05:01:18] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 05:01:19] local.INFO: ffprobe executed command successfully  
+[2024-07-26 05:01:19] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4" -show_streams -print_format json  
+[2024-07-26 05:01:19] local.ERROR: ffprobe failed to execute command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4" -show_streams -print_format json: ffprobe version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4: Invalid argument
+  
+[2024-07-26 05:01:19] local.ERROR: File conversion error: Unable to probe C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/fi5feDwXYCGQMhAiEC1JcbjPL8KBJxuBbIPu5iFL.mp4  
+[2024-07-26 05:07:11] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4 to C:\Users\USER\convert\storage\app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.wav  
+[2024-07-26 05:07:11] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4  
+[2024-07-26 05:07:11] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 05:07:11] local.INFO: ffprobe executed command successfully  
+[2024-07-26 05:07:11] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4" -show_streams -print_format json  
+[2024-07-26 05:07:12] local.ERROR: ffprobe failed to execute command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4" -show_streams -print_format json: ffprobe version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4: Invalid argument
+  
+[2024-07-26 05:07:12] local.ERROR: File conversion error: Unable to probe C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/wdrdNAI8U8FOeiLbTBmHCVfd3MYo5tcnsbhaHgSB.mp4  
+[2024-07-26 05:15:44] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/T1fXWQZXLZJ6CualJJNGXoCrzRsLKhRqjmjLLX8G.mp4 to C:\Users\USER\convert\storage\uploads/T1fXWQZXLZJ6CualJJNGXoCrzRsLKhRqjmjLLX8G.wav  
+[2024-07-26 05:15:44] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 05:17:12] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/n8vwJfgFnU3f3H7sB4hCV4OkVMfeBejIewTPDBq8.mp4 to C:\Users\USER\convert\storage\uploads/n8vwJfgFnU3f3H7sB4hCV4OkVMfeBejIewTPDBq8.wav  
+[2024-07-26 05:17:12] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 05:20:06] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/KRBSDELjmc85KWyYoQaanaOWuyCvaao4eYV1yAxl.mp4 to C:\Users\USER\convert\storage\uploads/KRBSDELjmc85KWyYoQaanaOWuyCvaao4eYV1yAxl.wav  
+[2024-07-26 05:20:06] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 05:20:19] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/GkOgF8oJG6ZbnUnunQmPkLESDOmYwP5WIrY1pANR.mp4 to C:\Users\USER\convert\storage\uploads/GkOgF8oJG6ZbnUnunQmPkLESDOmYwP5WIrY1pANR.wav  
+[2024-07-26 05:20:19] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 05:40:39] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 05:40:39] local.INFO: ffprobe executed command successfully  
+[2024-07-26 05:40:39] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/J266VAmMtmuPKEkQLxpc5RCYdZLhwbMYfr7YTeBt.mp4" -show_streams -print_format json  
+[2024-07-26 05:40:40] local.ERROR: ffprobe failed to execute command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/J266VAmMtmuPKEkQLxpc5RCYdZLhwbMYfr7YTeBt.mp4" -show_streams -print_format json: ffprobe version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2007-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/J266VAmMtmuPKEkQLxpc5RCYdZLhwbMYfr7YTeBt.mp4: Invalid argument
+  
+[2024-07-26 05:40:40] local.ERROR: File conversion error: Unable to probe C:/Users/USER/convert/storage/app/C:/Users/USER/convert/storage/app/uploads/J266VAmMtmuPKEkQLxpc5RCYdZLhwbMYfr7YTeBt.mp4  
+[2024-07-26 05:41:57] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/bJeSjtxJcBPFnqqGjWpJbvmojrFFYRpNApShgiHl.mp4 to C:\Users\USER\convert\storage\uploads/bJeSjtxJcBPFnqqGjWpJbvmojrFFYRpNApShgiHl.wav  
+[2024-07-26 05:41:57] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 05:42:28] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/iS9piQOT76yftfH5el4L6qo2gXicDKoMEBaSJRBg.mp4 to C:\Users\USER\convert\storage\uploads/iS9piQOT76yftfH5el4L6qo2gXicDKoMEBaSJRBg.wav  
+[2024-07-26 05:42:28] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 08:19:05] local.INFO: Starting conversion: C:\Users\USER\convert\storage\uploads/IaUtOgdU6vObJA5u6VT9czMaTaMvVbrm4vd08drC.mp4 to C:\Users\USER\convert\storage\uploads/IaUtOgdU6vObJA5u6VT9czMaTaMvVbrm4vd08drC.wav  
+[2024-07-26 08:19:05] local.ERROR: File conversion error: Call to undefined method ProtoneMedia\LaravelFFMpeg\Support\MediaOpenerFactory::create()  
+[2024-07-26 08:21:16] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.mp4 to C:\Users\USER\convert\storage\app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.wav  
+[2024-07-26 08:21:16] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.mp4  
+[2024-07-26 08:21:16] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:21:18] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:21:18] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.mp4" -show_streams -print_format json  
+[2024-07-26 08:21:18] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:21:18] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.wav"  
+[2024-07-26 08:21:19] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.mp4" -show_format -print_format json  
+[2024-07-26 08:21:19] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:21:19] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:21:19] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.wav  
+[2024-07-26 08:21:19] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/L5O5QHEzBE7w7OSisdZtoaM81iMpLTHqAKoDITgh.wav  
+[2024-07-26 08:24:22] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/sIBKCIHQk2EmE1GW0EYfpVDnocyuPimMySSvwndj.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:24:22] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/sIBKCIHQk2EmE1GW0EYfpVDnocyuPimMySSvwndj.mp4  
+[2024-07-26 08:24:22] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:24:23] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:24:23] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/sIBKCIHQk2EmE1GW0EYfpVDnocyuPimMySSvwndj.mp4" -show_streams -print_format json  
+[2024-07-26 08:24:23] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:24:23] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/sIBKCIHQk2EmE1GW0EYfpVDnocyuPimMySSvwndj.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:24:23] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/sIBKCIHQk2EmE1GW0EYfpVDnocyuPimMySSvwndj.mp4" -show_format -print_format json  
+[2024-07-26 08:24:24] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:24:24] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:24:24] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:24:24] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:25:56] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/IXlFU77VERK7UFhqHP6QzZ1QDyGbLK12il9oM9pH.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:25:56] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/IXlFU77VERK7UFhqHP6QzZ1QDyGbLK12il9oM9pH.mp4  
+[2024-07-26 08:25:56] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:25:56] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:25:56] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/IXlFU77VERK7UFhqHP6QzZ1QDyGbLK12il9oM9pH.mp4" -show_streams -print_format json  
+[2024-07-26 08:25:57] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:25:57] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/IXlFU77VERK7UFhqHP6QzZ1QDyGbLK12il9oM9pH.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:25:57] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/IXlFU77VERK7UFhqHP6QzZ1QDyGbLK12il9oM9pH.mp4" -show_format -print_format json  
+[2024-07-26 08:25:57] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:25:57] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:25:57] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:25:57] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:28:43] local.INFO: Original file name: file  
+[2024-07-26 08:28:43] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4  
+[2024-07-26 08:28:43] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:28:43] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:28:43] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4  
+[2024-07-26 08:28:43] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:28:43] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:28:43] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4" -show_streams -print_format json  
+[2024-07-26 08:28:43] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:28:43] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:28:44] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/2d9IrN4RriAEKKOGcu4eKProgdgnwQmY9mY4AP6R.mp4" -show_format -print_format json  
+[2024-07-26 08:28:44] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:28:44] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:28:44] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:28:44] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:42:30] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/KnLzfE40HwRZpz8O9qvEvwXi1CB25MalUV6zRbua.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:42:30] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/KnLzfE40HwRZpz8O9qvEvwXi1CB25MalUV6zRbua.mp4  
+[2024-07-26 08:42:30] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:42:31] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:42:31] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/KnLzfE40HwRZpz8O9qvEvwXi1CB25MalUV6zRbua.mp4" -show_streams -print_format json  
+[2024-07-26 08:42:31] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:42:31] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/KnLzfE40HwRZpz8O9qvEvwXi1CB25MalUV6zRbua.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:42:31] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/KnLzfE40HwRZpz8O9qvEvwXi1CB25MalUV6zRbua.mp4" -show_format -print_format json  
+[2024-07-26 08:42:32] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:42:32] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:42:32] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:42:32] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:46:21] local.INFO: Original file name: file  
+[2024-07-26 08:46:21] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4  
+[2024-07-26 08:46:21] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:46:21] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:46:21] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4  
+[2024-07-26 08:46:21] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:46:21] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:46:21] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4" -show_streams -print_format json  
+[2024-07-26 08:46:22] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:46:22] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:46:22] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/LsF57CGTVEwQCTzBBPiPH2clkzNX86HKsRz2rFKw.mp4" -show_format -print_format json  
+[2024-07-26 08:46:22] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:46:22] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:46:22] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:46:22] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:48:58] local.INFO: Original file name: kano  
+[2024-07-26 08:48:58] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4  
+[2024-07-26 08:48:58] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:48:58] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4 to C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:48:58] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4  
+[2024-07-26 08:48:58] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:48:59] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:48:59] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4" -show_streams -print_format json  
+[2024-07-26 08:48:59] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:48:59] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav"  
+[2024-07-26 08:49:00] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4" -show_format -print_format json  
+[2024-07-26 08:49:00] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:49:00] local.ERROR: ffmpeg failed to execute command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav": ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:/Users/USER/convert/storage/app/uploads/EE87rsDUbqhI1pTEYIX1DYTzUOouJLH9ejAbPowm.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2020-02-06T13:17:56.000000Z
+  Duration: 00:00:30.08, start: 0.000000, bitrate: 541 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m, progressive), 640x360, 539 kb/s, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2020-02-06T13:17:56.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+Output #0, wav, to 'C:/Users/USER/convert/storage/app/uploads/kano.wav':
+[out#0/wav @ 00000269fb4e3480] Output file does not contain any stream
+Error opening output file C:/Users/USER/convert/storage/app/uploads/kano.wav.
+Error opening output files: Invalid argument
+  
+[2024-07-26 08:49:00] local.ERROR: File conversion error: Encoding failed  
+[2024-07-26 08:49:53] local.INFO: Original file name: file  
+[2024-07-26 08:49:53] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4  
+[2024-07-26 08:49:53] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:49:53] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:49:53] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4  
+[2024-07-26 08:49:53] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:49:53] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:49:53] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4" -show_streams -print_format json  
+[2024-07-26 08:49:54] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:49:54] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:49:54] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/szyMrKB22FXAam5X0hY1dD3HMjAXxMz9DFEEvRT2.mp4" -show_format -print_format json  
+[2024-07-26 08:49:54] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:49:54] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:49:54] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:49:54] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:50:21] local.INFO: Original file name: kano  
+[2024-07-26 08:50:21] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4  
+[2024-07-26 08:50:21] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:50:21] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4 to C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:50:21] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4  
+[2024-07-26 08:50:21] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:50:21] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:50:21] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4" -show_streams -print_format json  
+[2024-07-26 08:50:21] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:50:21] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav"  
+[2024-07-26 08:50:21] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4" -show_format -print_format json  
+[2024-07-26 08:50:22] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:50:22] local.ERROR: ffmpeg failed to execute command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav": ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:/Users/USER/convert/storage/app/uploads/g7oKaoFjzojbD46OKo2Z73qnJv5LHLXPwUV6bfPl.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2020-02-06T13:17:56.000000Z
+  Duration: 00:00:30.08, start: 0.000000, bitrate: 541 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m, progressive), 640x360, 539 kb/s, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2020-02-06T13:17:56.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+Output #0, wav, to 'C:/Users/USER/convert/storage/app/uploads/kano.wav':
+[out#0/wav @ 0000020092e93480] Output file does not contain any stream
+Error opening output file C:/Users/USER/convert/storage/app/uploads/kano.wav.
+Error opening output files: Invalid argument
+  
+[2024-07-26 08:50:22] local.ERROR: File conversion error: Encoding failed  
+[2024-07-26 08:53:05] local.INFO: Original file name: kano  
+[2024-07-26 08:53:05] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/7zLa6zOQzhegZMcucqhbIL81gvnJUjrP3ObLjTbo.mp4  
+[2024-07-26 08:53:05] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:53:05] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/7zLa6zOQzhegZMcucqhbIL81gvnJUjrP3ObLjTbo.mp4 to C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-26 08:53:06] local.ERROR: Input file does not contain any audio stream.  
+[2024-07-26 08:53:32] local.INFO: Original file name: file  
+[2024-07-26 08:53:32] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4  
+[2024-07-26 08:53:32] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:32] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:33] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4  
+[2024-07-26 08:53:33] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:53:33] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:33] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4" -show_streams -print_format json  
+[2024-07-26 08:53:33] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:33] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:53:33] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/hjru5kYLUdWegC9SZSnDZvkS2KdbNQGOaoNymKad.mp4" -show_format -print_format json  
+[2024-07-26 08:53:34] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:34] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:53:34] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:34] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:35] local.INFO: Original file name: file  
+[2024-07-26 08:53:35] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4  
+[2024-07-26 08:53:35] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:35] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:35] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4  
+[2024-07-26 08:53:35] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:53:35] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:35] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4" -show_streams -print_format json  
+[2024-07-26 08:53:36] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:36] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:53:36] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/EXcnsCmW3yI2GBVK5IpOTtqtmBLRS21AHEM1wPEm.mp4" -show_format -print_format json  
+[2024-07-26 08:53:36] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:36] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:53:36] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:36] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:37] local.INFO: Original file name: file  
+[2024-07-26 08:53:37] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4  
+[2024-07-26 08:53:37] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:37] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:38] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4  
+[2024-07-26 08:53:38] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:53:38] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:38] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4" -show_streams -print_format json  
+[2024-07-26 08:53:38] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:38] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:53:38] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/Fj93dHKv5cmJRBO3rHCC1Phjq7c4bsMfQx3yMcIT.mp4" -show_format -print_format json  
+[2024-07-26 08:53:39] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:53:39] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:53:39] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:53:39] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:41] local.INFO: Original file name: file  
+[2024-07-26 08:57:41] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4  
+[2024-07-26 08:57:41] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:41] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:41] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4  
+[2024-07-26 08:57:41] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:57:41] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:41] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4" -show_streams -print_format json  
+[2024-07-26 08:57:42] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:42] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:57:42] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/83u9vouMDx9s37kgYKGvlWenSA8xvTB4SOMRET35.mp4" -show_format -print_format json  
+[2024-07-26 08:57:42] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:42] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:57:42] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:42] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:53] local.INFO: Original file name: file  
+[2024-07-26 08:57:53] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4  
+[2024-07-26 08:57:53] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:53] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:54] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4  
+[2024-07-26 08:57:54] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 08:57:54] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:54] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4" -show_streams -print_format json  
+[2024-07-26 08:57:54] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:54] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 08:57:54] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/t86MlW4Y6pwJj8OsaljEXPVjsvYINWCkoLbTQXKk.mp4" -show_format -print_format json  
+[2024-07-26 08:57:55] local.INFO: ffprobe executed command successfully  
+[2024-07-26 08:57:55] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 08:57:55] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 08:57:55] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 09:00:19] local.INFO: Original file name: file  
+[2024-07-26 09:00:19] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4  
+[2024-07-26 09:00:19] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 09:00:19] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 09:00:19] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4  
+[2024-07-26 09:00:19] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-26 09:00:19] local.INFO: ffprobe executed command successfully  
+[2024-07-26 09:00:19] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4" -show_streams -print_format json  
+[2024-07-26 09:00:20] local.INFO: ffprobe executed command successfully  
+[2024-07-26 09:00:20] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-26 09:00:20] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/10qyvHsSuhDgRgkSjvigS4mhQeihMPapdkQHkQJl.mp4" -show_format -print_format json  
+[2024-07-26 09:00:20] local.INFO: ffprobe executed command successfully  
+[2024-07-26 09:00:20] local.INFO: ffmpeg executed command successfully  
+[2024-07-26 09:00:20] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-26 09:00:20] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-29 11:17:04] local.INFO: Original file name: file  
+[2024-07-29 11:17:04] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4  
+[2024-07-29 11:17:04] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-29 11:17:04] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-29 11:17:04] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4  
+[2024-07-29 11:17:04] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-29 11:17:05] local.INFO: ffprobe executed command successfully  
+[2024-07-29 11:17:05] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4" -show_streams -print_format json  
+[2024-07-29 11:17:05] local.INFO: ffprobe executed command successfully  
+[2024-07-29 11:17:05] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-29 11:17:06] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/3hRqMpUaboOUF0FIUxoWkY9HXLtNjRDtZC2VCEwT.mp4" -show_format -print_format json  
+[2024-07-29 11:17:06] local.INFO: ffprobe executed command successfully  
+[2024-07-29 11:17:06] local.INFO: ffmpeg executed command successfully  
+[2024-07-29 11:17:06] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-29 11:17:06] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-30 07:33:21] local.INFO: Original file name: file  
+[2024-07-30 07:33:22] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4  
+[2024-07-30 07:33:22] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-30 07:33:22] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4 to C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-30 07:33:22] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4  
+[2024-07-30 07:33:22] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-30 07:33:22] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:22] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4" -show_streams -print_format json  
+[2024-07-30 07:33:22] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:23] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/file.wav"  
+[2024-07-30 07:33:23] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/pOZ49vy8rlOofC8ayN02dI4ssnhGVg4igaTYxaLr.mp4" -show_format -print_format json  
+[2024-07-30 07:33:23] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:23] local.INFO: ffmpeg executed command successfully  
+[2024-07-30 07:33:23] local.INFO: Saved file: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-30 07:33:23] local.INFO: File conversion successful: C:\Users\USER\convert\storage\app/uploads/file.wav  
+[2024-07-30 07:33:39] local.INFO: Original file name: kano  
+[2024-07-30 07:33:39] local.INFO: Input file path: C:\Users\USER\convert\storage\app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4  
+[2024-07-30 07:33:39] local.INFO: Output file path: C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-30 07:33:39] local.INFO: Starting conversion: C:\Users\USER\convert\storage\app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4 to C:\Users\USER\convert\storage\app/uploads/kano.wav  
+[2024-07-30 07:33:39] local.INFO: Opened file: C:\Users\USER\convert\storage\app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4  
+[2024-07-30 07:33:39] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe -help -loglevel quiet  
+[2024-07-30 07:33:39] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:39] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4" -show_streams -print_format json  
+[2024-07-30 07:33:40] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:40] local.INFO: ffmpeg running command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav"  
+[2024-07-30 07:33:40] local.INFO: ffprobe running command C:\src\ffmpg\bin\ffprobe.exe "C:/Users/USER/convert/storage/app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4" -show_format -print_format json  
+[2024-07-30 07:33:40] local.INFO: ffprobe executed command successfully  
+[2024-07-30 07:33:40] local.ERROR: ffmpeg failed to execute command C:\src\ffmpg\bin\ffmpeg.exe -y -i "C:/Users/USER/convert/storage/app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4" -threads 12 -acodec pcm_s16le -b:a 128k "C:/Users/USER/convert/storage/app/uploads/kano.wav": ffmpeg version 2024-07-22-git-172da370e7-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 28.100 / 59. 28.100
+  libavcodec     61. 10.100 / 61. 10.100
+  libavformat    61.  5.101 / 61.  5.101
+  libavdevice    61.  2.100 / 61.  2.100
+  libavfilter    10.  2.102 / 10.  2.102
+  libswscale      8.  2.100 /  8.  2.100
+  libswresample   5.  2.100 /  5.  2.100
+  libpostproc    58.  2.100 / 58.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:/Users/USER/convert/storage/app/uploads/czX9pR3Fh394RVagTlcMjYRCoAaJEBxgYImvWnzZ.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2020-02-06T13:17:56.000000Z
+  Duration: 00:00:30.08, start: 0.000000, bitrate: 541 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m, progressive), 640x360, 539 kb/s, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2020-02-06T13:17:56.000000Z
+        handler_name    : L-SMASH Video Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : AVC Coding
+Output #0, wav, to 'C:/Users/USER/convert/storage/app/uploads/kano.wav':
+[out#0/wav @ 00000168371e3480] Output file does not contain any stream
+Error opening output file C:/Users/USER/convert/storage/app/uploads/kano.wav.
+Error opening output files: Invalid argument
+  
+[2024-07-30 07:33:40] local.ERROR: File conversion error: Encoding failed  
